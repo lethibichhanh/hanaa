@@ -1,0 +1,24 @@
+div#PHU KIỆN{
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+
+    padding-right: 15px;
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+
+    font-size: 12px;
+    
+}
+
+.sanpham img {
+    height: 120px;
+    transition: transform ease 1s;
+    width: 200px;
+}
+div#hinh img:hover{
+    transition-duration: 2s;
+    transform: scale(1,2);
+}

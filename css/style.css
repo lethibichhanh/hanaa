@@ -1,0 +1,348 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+.body{
+    width: 100%;
+    margin: 10px auto;
+}
+
+header{
+    width: 100%;
+    background-color:rgb(64, 161, 252);
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+section#nav ul{
+    display: flex;
+}
+
+section#nav ul li { 
+    font-family: Arial;
+    border-right: 1px solid rgb(255, 0, 191);
+    background-color:rgb(135, 184, 248);
+    font-weight: bold;
+    color:rgb(96, 122, 156);
+
+    width: 100px;
+    list-style: none;
+    font-size: 16px;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+
+    cursor: pointer;
+}
+section#nav >ul >li:hover{
+    background-color:rgb(205, 233, 236);
+}
+h1{
+    color: rgb(145, 12, 145);
+    text-align:center;
+}
+hr{
+    background-color: rgb(42, 199, 226);   
+}
+h3{
+ color: rgb(218, 198, 198);
+ text-align: center;}
+ section#nav ul li { 
+    font-family: Arial;
+    border-right: 1px solid blue;
+    background-color:rgb(155, 214, 248);
+    font-weight: bold;
+    color:blue;
+
+    float: left;
+    width: 100px;
+    list-style: none;
+    font-size: 16px;
+    padding: 15px 10px 10px 10px;
+
+    text-align: center;
+}
+section#nav ul li:last-child{
+    border-right: none; 
+}
+div#BAEKHYUN{
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+
+    padding-right: 15px;
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(27, 87, 253);
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(245, 206, 245);
+}
+
+div#CHANYEOL{
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 40px;
+    background-color: rgb(250, 61, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    font-weight: bold;
+    color: rgb(230, 232, 236);
+}
+.sanpham {    
+    width: 100%;
+    border: 2px solid rgba(241, 237, 237, 0.6);
+    border-bottom: 10px;
+    padding: 10px;
+    margin: 5px;
+
+    box-shadow: 7px 7px 7px rgb(233, 221, 221);
+    display: inline-block;
+}
+.sanpham h3{
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}
+.sanpham  h4 {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.sanpham img {
+    height: 120px;
+    transition: transform ease 1s;
+    width: 200px;
+}
+div#hinh img:hover{
+    transition-duration: 2s;
+    transform: scale(1,2);
+}
+
+footer {
+    background-color: rgb(73, 72, 72);
+    color: white;
+    height: 300px;
+    margin-top: 15px;
+    padding-top: 10 auto;
+}
+footer > table {
+    width: 80%;
+    margin: 0 auto;
+}
+footer > table > tbody > tr:first-child {
+    height: 50px;font-weight: bold;
+}
+.thongtin {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+.thongtin h5 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.thongtin p {
+    margin-top: 5px;
+}
+.thongtin img {
+    width: 200px;
+}
+.col1 {
+    width: 40%;
+}
+.col2 {
+    width: 40%;
+    padding-right: 100px;
+}
+.col2 input[type=text],
+.col2 input[type=email] {
+    background-color: #ffffff;
+    padding: 5px;
+}
+.col2 input[type=submit]{
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
+.col2 input[type=submit]:hover{
+    background-color:rgb(0, 119, 255);
+
+}
+.col3 {
+    width: 20%;
+}
+.foot {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.foot a {
+    text-decoration: none;
+    color: white; 
+    background-color: gray;
+}
+.dautrang > a {
+    display: block;
+    padding: 10px;
+    background: rgba(255, 0, 0, 0.849);
+    width: 120px;
+    position: fixed;
+
+    right: 5px;
+    bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+#underfooter{
+    padding: 30px;
+    margin-top: -50px;
+    background-color: gray;
+}
+
+div#CHEN{
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(77, 152, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(202, 241, 230);
+}
+div#LAY{
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(253, 28, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(236, 215, 218);
+}
+div#D.O{
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(238, 11, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(60, 241, 190);
+}
+div#SEHUN {
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(202, 243, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(9, 1, 8);
+}
+div#SUHO  {
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(245, 122, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(253, 232, 214);
+}
+
+div#KAI {
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(54, 230, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(230, 237, 240);
+}
+
+div#XIUMIN {
+    margin-left: -1px;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(245, 84, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(248, 226, 235);
+}
+.footer-copyright{
+    text-align:center;
+}
+.footer-img{
+    text-align: center;
+}
+.footer-img img{
+    width:150px;
+}
+
+
